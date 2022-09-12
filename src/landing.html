@@ -14,10 +14,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
+    <link rel="stylesheet" href="../dist/build.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>The Power Room</title>
   </head>
   <body class="text-gray-800 antialiased">
@@ -104,10 +103,10 @@
             class="absolute h-full w-full bg-black opacity-50"
           ></span>
         </div>
-        <div class="container relative mx-auto">
+        <div class="container relative mx-auto" data-aos="fade-in">
           <div class="flex flex-wrap items-center">
             <div class="ml-auto mr-auto w-full px-4 text-center lg:w-6/12">
-              <div class="pr-12">
+              <div>
                 <h1 class="text-6xl font-semibold tracking-tighter text-white">
                   Feel the <span class="text-orange-500">Power</span>
                 </h1>
@@ -147,14 +146,20 @@
       <section class="relative bg-black py-20 text-white">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap items-center">
-            <div class="ml-auto mr-auto w-full px-4 md:w-4/12">
+            <div
+              class="ml-auto mr-auto w-full px-4 md:w-4/12"
+              data-aos="fade-right"
+            >
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
                 src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
               />
             </div>
-            <div class="ml-auto mr-auto w-full px-4 md:w-5/12">
+            <div
+              class="ml-auto mr-auto w-full px-4 md:w-5/12"
+              data-aos="fade-left"
+            >
               <div class="md:pr-12">
                 <small class="text-orange-500">About our gym</small>
                 <h3 class="text-3xl font-bold uppercase">Safe Body Building</h3>
@@ -214,8 +219,8 @@
         </div>
       </section>
       <!-- Trainer Section -->
-      <section class="pt-20 pb-48">
-        <div class="container mx-auto px-4">
+      <section class="pt-20">
+        <div class="container mx-auto px-4 pb-32 md:pb-48 lg:pb-60">
           <div class="mb-24 flex flex-wrap justify-center text-center">
             <div class="w-full px-4 lg:w-6/12">
               <h2 class="text-4xl font-semibold">Meet Our Trainers</h2>
@@ -228,7 +233,10 @@
           <!-- Trainer Card Wrapper -->
           <div class="flex flex-wrap">
             <!-- Trainer Card 1 -->
-            <div class="mb-12 w-full px-4 md:w-4/12 lg:mb-0">
+            <div
+              class="mb-12 w-full px-4 md:w-4/12 lg:mb-0"
+              data-aos="flip-right"
+            >
               <div class="px-6">
                 <img
                   alt="..."
@@ -263,7 +271,10 @@
               </div>
             </div>
             <!-- Trainer Card 2 -->
-            <div class="mb-12 w-full px-4 md:w-4/12 lg:mb-0">
+            <div
+              class="mb-12 w-full px-4 md:w-4/12 lg:mb-0"
+              data-aos="flip-right"
+            >
               <div class="px-6">
                 <img
                   alt="..."
@@ -298,7 +309,10 @@
               </div>
             </div>
             <!-- Trainer Card 3 -->
-            <div class="mb-12 w-full px-4 md:w-4/12 lg:mb-0">
+            <div
+              class="mb-12 w-full px-4 md:w-4/12 lg:mb-0"
+              data-aos="flip-right"
+            >
               <div class="px-6">
                 <img
                   alt="..."
@@ -336,7 +350,7 @@
         </div>
       </section>
       <!-- Contact Header Section -->
-      <section class="relative block bg-gray-900 pb-20">
+      <section class="relative block bg-black pb-20 pt-20 text-white md:pt-0">
         <div
           class="pointer-events-none absolute bottom-auto top-0 left-0 right-0 -mt-20 w-full overflow-hidden"
           style="height: 80px"
@@ -350,112 +364,72 @@
             x="0"
             y="0"
           >
-            <polygon
-              class="fill-current text-gray-900"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
+            <polygon points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div>
-        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div
+          class="container mx-auto px-4 pb-20 lg:pt-24 lg:pb-64"
+          data-aos="fade-down"
+        >
           <div class="flex flex-wrap justify-center text-center">
             <div class="w-full px-4 lg:w-6/12">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
-              <p class="mt-4 mb-4 text-lg leading-relaxed text-gray-500">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
-              </p>
-            </div>
-          </div>
-          <div class="mt-12 flex flex-wrap justify-center">
-            <div class="w-full px-4 text-center lg:w-3/12">
-              <div
-                class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-gray-900 shadow-lg"
-              >
-                <i class="fas fa-medal text-xl"></i>
-              </div>
-              <h6 class="mt-5 text-xl font-semibold text-white">
-                Excelent Services
-              </h6>
-              <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-            <div class="w-full px-4 text-center lg:w-3/12">
-              <div
-                class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-gray-900 shadow-lg"
-              >
-                <i class="fas fa-poll text-xl"></i>
-              </div>
-              <h5 class="mt-5 text-xl font-semibold text-white">
-                Grow your market
-              </h5>
-              <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-            <div class="w-full px-4 text-center lg:w-3/12">
-              <div
-                class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-gray-900 shadow-lg"
-              >
-                <i class="fas fa-lightbulb text-xl"></i>
-              </div>
-              <h5 class="mt-5 text-xl font-semibold text-white">Launch time</h5>
-              <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <h2 class="text-4xl font-semibold uppercase text-white">
+                Contact Us
+              </h2>
+              <p class="mt-4 mb-4 text-lg leading-relaxed">
+                Contact us to ask any questions, aquire a membership, talk to
+                our trainers or anything else
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="relative block bg-gray-900 py-24 lg:pt-0">
-        <div class="container mx-auto px-4">
+      <!-- Contact Form -->
+      <section class="relative block bg-black py-24 lg:pt-0">
+        <div class="container mx-auto px-4" data-aos="fade-up">
           <div class="-mt-48 flex flex-wrap justify-center lg:-mt-64">
             <div class="w-full px-4 lg:w-6/12">
               <div
                 class="relative mb-6 flex w-full min-w-0 flex-col break-words rounded-lg bg-gray-300 shadow-lg"
               >
-                <div class="flex-auto p-5 lg:p-10">
+                <div class="flex-auto bg-orange-500 p-5 text-white lg:p-10">
                   <h4 class="text-2xl font-semibold">Want to work with us?</h4>
-                  <p class="mt-1 mb-4 leading-relaxed text-gray-600">
+                  <p class="mt-1 mb-4 leading-relaxed">
                     Complete this form and we will get back to you in 24 hours.
                   </p>
                   <div class="relative mb-3 mt-8 w-full">
                     <label
-                      class="mb-2 block text-xs font-bold uppercase text-gray-700"
+                      class="700 mb-2 block text-xs font-bold uppercase"
                       for="full-name"
                       >Full Name</label
                     ><input
                       type="text"
-                      class="w-full rounded border-0 bg-white px-3 py-3 text-sm text-gray-700 placeholder-gray-400 shadow focus:outline-none focus:ring"
+                      class="700 w-full rounded border-0 bg-white px-3 py-3 text-sm placeholder-gray-400 shadow focus:outline-none focus:ring"
                       placeholder="Full Name"
                       style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <div class="relative mb-3 w-full">
                     <label
-                      class="mb-2 block text-xs font-bold uppercase text-gray-700"
+                      class="700 mb-2 block text-xs font-bold uppercase"
                       for="email"
                       >Email</label
                     ><input
                       type="email"
-                      class="w-full rounded border-0 bg-white px-3 py-3 text-sm text-gray-700 placeholder-gray-400 shadow focus:outline-none focus:ring"
+                      class="700 w-full rounded border-0 bg-white px-3 py-3 text-sm placeholder-gray-400 shadow focus:outline-none focus:ring"
                       placeholder="Email"
                       style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <div class="relative mb-3 w-full">
                     <label
-                      class="mb-2 block text-xs font-bold uppercase text-gray-700"
+                      class="700 mb-2 block text-xs font-bold uppercase"
                       for="message"
                       >Message</label
                     ><textarea
                       rows="4"
                       cols="80"
-                      class="w-full rounded border-0 bg-white px-3 py-3 text-sm text-gray-700 placeholder-gray-400 shadow focus:outline-none focus:ring"
+                      class="700 w-full rounded border-0 bg-white px-3 py-3 text-sm placeholder-gray-400 shadow focus:outline-none focus:ring"
                       placeholder="Type a message..."
                     ></textarea>
                   </div>
@@ -475,6 +449,7 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="relative bg-gray-300 pt-8 pb-6">
       <div
         class="pointer-events-none absolute bottom-auto top-0 left-0 right-0 -mt-20 w-full overflow-hidden"
@@ -498,108 +473,27 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="w-full px-4 lg:w-6/12">
-            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h4 class="text-3xl font-semibold">Follow us on Social Media</h4>
             <h5 class="mt-0 mb-2 text-lg text-gray-700">
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
             <div class="mt-6">
               <button
-                class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-blue-400 shadow-lg outline-none focus:outline-none"
+                class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-orange-500 p-3 font-normal text-white shadow-lg outline-none focus:outline-none"
                 type="button"
               >
                 <i class="fab fa-twitter flex"></i></button
               ><button
-                class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-blue-600 shadow-lg outline-none focus:outline-none"
+                class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-orange-500 p-3 font-normal text-white shadow-lg outline-none focus:outline-none"
                 type="button"
               >
                 <i class="fab fa-facebook-square flex"></i></button
               ><button
-                class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-pink-400 shadow-lg outline-none focus:outline-none"
+                class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-orange-500 p-3 font-normal text-white shadow-lg outline-none focus:outline-none"
                 type="button"
               >
-                <i class="fab fa-dribbble flex"></i></button
-              ><button
-                class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-gray-900 shadow-lg outline-none focus:outline-none"
-                type="button"
-              >
-                <i class="fab fa-github flex"></i>
+                <i class="fab fa-instagram flex"></i>
               </button>
-            </div>
-          </div>
-          <div class="w-full px-4 lg:w-6/12">
-            <div class="items-top mb-6 flex flex-wrap">
-              <div class="ml-auto w-full px-4 lg:w-4/12">
-                <span
-                  class="mb-2 block text-sm font-semibold uppercase text-gray-600"
-                  >Useful Links</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://www.creative-tim.com/presentation"
-                      >About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://blog.creative-tim.com"
-                      >Blog</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://www.github.com/creativetimofficial"
-                      >Github</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://www.creative-tim.com/bootstrap-themes/free"
-                      >Free Products</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="w-full px-4 lg:w-4/12">
-                <span
-                  class="mb-2 block text-sm font-semibold uppercase text-gray-600"
-                  >Other Resources</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                      >MIT License</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://creative-tim.com/terms"
-                      >Terms &amp; Conditions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://creative-tim.com/privacy"
-                      >Privacy Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-900"
-                      href="https://creative-tim.com/contact-us"
-                      >Contact Us</a
-                    >
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -609,12 +503,7 @@
         >
           <div class="mx-auto w-full px-4 text-center md:w-4/12">
             <div class="py-1 text-sm font-semibold text-gray-600">
-              Copyright © 2019 Tailwind Starter Kit by
-              <a
-                href="https://www.creative-tim.com"
-                class="text-gray-600 hover:text-gray-900"
-                >Creative Tim</a
-              >.
+              Copyright © The Power Room
             </div>
           </div>
         </div>
@@ -626,5 +515,13 @@
       document.getElementById(collapseID).classList.toggle('hidden')
       document.getElementById(collapseID).classList.toggle('block')
     }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 200,
+      duration: 1200,
+      once: false,
+    })
   </script>
 </html>
