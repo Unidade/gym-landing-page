@@ -1,6 +1,8 @@
 {
   "private": true,
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-minimizer-webpack-plugin": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
