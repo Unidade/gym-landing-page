@@ -13,7 +13,7 @@ This is a study project where I create a landing page for a gym company
 
 # Documentation
 
-To run the website simple put the main.html in a browser or see the [live demo](https://gym-landing-page123.netlify.app/) here
+To run the website simple put the main.html in a browser or you can see the [live demo](https://gym-landing-page123.netlify.app/) here
 
 ## Build Process
 
