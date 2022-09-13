@@ -16,7 +16,7 @@ module.exports = {
       patterns: [
         {
           from: './src/*.html',
-          to: './main.html',
+          to: './index.html',
         },
       ],
     }),
